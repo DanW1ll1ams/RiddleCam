@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Riddle Cam</string>
+
+    <string name="category_sports">Sports</string>
+    <string name="category_food">Food &amp; Drink</string>
+    <string name="category_home">Home</string>
+    <string name="category_music">Music</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_random">Random</string>
+    <string name="category_places">Places</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/grid_item_width"
+        android:layout_height="@dimen/grid_item_width"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/placeholder"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/grid_item_width"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#6e060606"
+        android:baselineAligned="true">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:paddingLeft="16dp"
+            tools:text="Animals"/>
+
+        <TextView
+            android:id="@+id/level_completed_textView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:paddingRight="16dp"
+            tools:text="0/20"/>
+    </LinearLayout>
+</LinearLayout>
